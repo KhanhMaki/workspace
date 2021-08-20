@@ -87,7 +87,7 @@ namespace BT12008
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(293, 270);
+            this.label5.Location = new System.Drawing.Point(255, 267);
             this.label5.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(75, 24);
@@ -96,60 +96,62 @@ namespace BT12008
             // 
             // txtnhapso
             // 
-            this.txtnhapso.Location = new System.Drawing.Point(195, 78);
+            this.txtnhapso.Location = new System.Drawing.Point(139, 82);
             this.txtnhapso.Name = "txtnhapso";
-            this.txtnhapso.Size = new System.Drawing.Size(95, 29);
+            this.txtnhapso.Size = new System.Drawing.Size(84, 29);
             this.txtnhapso.TabIndex = 5;
             // 
             // txtDayvuanhap
             // 
             this.txtDayvuanhap.Location = new System.Drawing.Point(195, 140);
             this.txtDayvuanhap.Name = "txtDayvuanhap";
-            this.txtDayvuanhap.Size = new System.Drawing.Size(199, 29);
+            this.txtDayvuanhap.Size = new System.Drawing.Size(239, 29);
             this.txtDayvuanhap.TabIndex = 6;
             // 
             // txtTongCacPT
             // 
             this.txtTongCacPT.Location = new System.Drawing.Point(299, 204);
             this.txtTongCacPT.Name = "txtTongCacPT";
-            this.txtTongCacPT.Size = new System.Drawing.Size(95, 29);
+            this.txtTongCacPT.Size = new System.Drawing.Size(135, 29);
             this.txtTongCacPT.TabIndex = 7;
             // 
             // txtTongChan
             // 
-            this.txtTongChan.Location = new System.Drawing.Point(171, 267);
+            this.txtTongChan.Location = new System.Drawing.Point(151, 265);
             this.txtTongChan.Name = "txtTongChan";
             this.txtTongChan.Size = new System.Drawing.Size(95, 29);
             this.txtTongChan.TabIndex = 8;
             // 
             // txtTongLe
             // 
-            this.txtTongLe.Location = new System.Drawing.Point(377, 267);
+            this.txtTongLe.Location = new System.Drawing.Point(339, 264);
             this.txtTongLe.Name = "txtTongLe";
             this.txtTongLe.Size = new System.Drawing.Size(95, 29);
             this.txtTongLe.TabIndex = 9;
             // 
             // btnNhap
             // 
-            this.btnNhap.Location = new System.Drawing.Point(308, 75);
+            this.btnNhap.Location = new System.Drawing.Point(249, 77);
             this.btnNhap.Name = "btnNhap";
             this.btnNhap.Size = new System.Drawing.Size(99, 36);
             this.btnNhap.TabIndex = 10;
             this.btnNhap.Text = "Nhập";
             this.btnNhap.UseVisualStyleBackColor = true;
+            this.btnNhap.Click += new System.EventHandler(this.btnNhap_Click);
             // 
             // btnTiepTuc
             // 
-            this.btnTiepTuc.Location = new System.Drawing.Point(217, 359);
+            this.btnTiepTuc.Location = new System.Drawing.Point(195, 340);
             this.btnTiepTuc.Name = "btnTiepTuc";
             this.btnTiepTuc.Size = new System.Drawing.Size(103, 37);
             this.btnTiepTuc.TabIndex = 11;
             this.btnTiepTuc.Text = "Tiếp Tục";
             this.btnTiepTuc.UseVisualStyleBackColor = true;
+            this.btnTiepTuc.Click += new System.EventHandler(this.btnTiepTuc_Click);
             // 
             // btnThoat
             // 
-            this.btnThoat.Location = new System.Drawing.Point(349, 359);
+            this.btnThoat.Location = new System.Drawing.Point(333, 340);
             this.btnThoat.Name = "btnThoat";
             this.btnThoat.Size = new System.Drawing.Size(101, 37);
             this.btnThoat.TabIndex = 12;
@@ -161,7 +163,7 @@ namespace BT12008
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(524, 659);
+            this.ClientSize = new System.Drawing.Size(508, 552);
             this.Controls.Add(this.btnThoat);
             this.Controls.Add(this.btnTiepTuc);
             this.Controls.Add(this.btnNhap);
@@ -176,7 +178,7 @@ namespace BT12008
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
