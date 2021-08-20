@@ -1,0 +1,10 @@
+C:\Users\THEANH\source\repos\dinhtheanh998\workspace\BT12008\BT12008\bin\Debug\BT12008.exe.config
+C:\Users\THEANH\source\repos\dinhtheanh998\workspace\BT12008\BT12008\bin\Debug\BT12008.exe
+C:\Users\THEANH\source\repos\dinhtheanh998\workspace\BT12008\BT12008\bin\Debug\BT12008.pdb
+C:\Users\THEANH\source\repos\dinhtheanh998\workspace\BT12008\BT12008\obj\Debug\BT12008.csprojAssemblyReference.cache
+C:\Users\THEANH\source\repos\dinhtheanh998\workspace\BT12008\BT12008\obj\Debug\BT12008.Form1.resources
+C:\Users\THEANH\source\repos\dinhtheanh998\workspace\BT12008\BT12008\obj\Debug\BT12008.Properties.Resources.resources
+C:\Users\THEANH\source\repos\dinhtheanh998\workspace\BT12008\BT12008\obj\Debug\BT12008.csproj.GenerateResource.cache
+C:\Users\THEANH\source\repos\dinhtheanh998\workspace\BT12008\BT12008\obj\Debug\BT12008.csproj.CoreCompileInputs.cache
+C:\Users\THEANH\source\repos\dinhtheanh998\workspace\BT12008\BT12008\obj\Debug\BT12008.exe
+C:\Users\THEANH\source\repos\dinhtheanh998\workspace\BT12008\BT12008\obj\Debug\BT12008.pdb
